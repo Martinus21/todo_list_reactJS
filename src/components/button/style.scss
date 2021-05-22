@@ -1,0 +1,279 @@
+/* BUTTON DEFAULT & CUSTOM */
+// Button Background
+.cs-btn-primary {
+    background: #00A2E0;
+    border: none;
+    border-radius: 4px;
+    color: #DDDDDD;
+    &:hover {
+        background: #39afdd;  
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: #39afdd;  
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: #0d8cbe;
+        border: none;
+        border-radius: 4px;
+        color: #DDDDDD;
+    }
+}
+.cs-btn-secondary {
+    background: #CBCBCB;
+    border: none;
+    border-radius: 4px;
+    color: #0B0C22;
+    &:hover {
+        background: #afafaf;  
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #afafaf;  
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: #a0a0a0;
+        border: none;
+        border-radius: 4px;
+        color: #0B0C22;
+    }
+}
+.cs-btn-success {
+    background: #1BA27A;
+    border: none;
+    border-radius: 4px;
+    color: #DDDDDD;
+    &:hover {
+        background: #2d8f71;
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: #2d8f71;
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: #1f795e;
+        border: none;
+        border-radius: 4px;
+        color: #DDDDDD;
+    }
+}
+.cs-btn-danger {
+    background: #ED4C5C;
+    border: none;
+    border-radius: 4px;
+    color: #DDDDDD;
+    &:hover {
+        background: rgb(212, 94, 106);  
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: rgb(212, 94, 106);  
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: #af4953;
+        border: none;
+        border-radius: 4px;
+        color: #DDDDDD;
+    }
+}
+.cs-btn-warning {
+    background: #F9BD00;
+    border: none;
+    border-radius: 4px;
+    color: #0B0C22;
+    &:hover {
+        background: #ffce2c;  
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #ffce2c;  
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: #c99c0b;
+        border: none;
+        border-radius: 4px;
+        color: #0B0C22;
+    }
+}
+.cs-btn-info {
+    background: #5FD0FB;
+    border: none;
+    border-radius: 4px;
+    color: #0B0C22;
+    &:hover {
+        background: #61b5d6;
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #61b5d6;
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: #4897b6;
+        border: none;
+        border-radius: 4px;
+        color: #0B0C22;
+    }
+}
+.cs-btn-dongker {
+    background: #2C355A;
+    border: none;
+    border-radius: 4px;
+    color: #DDDDDD;
+    &:hover {
+        background: #2C355A;
+        color: #777777;
+    }
+    &:focus {
+        outline: none !important;
+        background: #2C355A;
+        color: #999999;
+    }
+    &:disabled {
+        background: #343c5c;
+        border: none;
+        border-radius: 4px;
+        color: #DDDDDD;
+    }
+}
+// End Button Background
+
+// Button Bordered
+.cs-btnOL-primary {
+    background: transparent;
+    border: 1px solid #00A2E0;
+    border-radius: 4px;
+    color: #39afdd;
+    &:hover {
+        background: #39afdd;  
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: #39a0c9;  
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #0d8cbe;
+        border-radius: 4px;
+        color: #0d8cbe;
+    }
+}
+.cs-btnOL-secondary {
+    background: transparent;
+    border: 1px solid #CBCBCB;
+    border-radius: 4px;
+    color: #CBCBCB;
+    &:hover {
+        background: #CBCBCB;
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #bbbbbb;
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #a0a0a0;
+        border-radius: 4px;
+        color: #a0a0a0;
+    }
+}
+.cs-btnOL-success {
+    background: transparent;
+    border: 1px solid #1BA27A;
+    border-radius: 4px;
+    color: #2d8f71;
+    &:hover {
+        background: #2d8f71;
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: #2c856a;
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #1f795e;
+        border-radius: 4px;
+        color: #1f795e;
+    }
+}
+.cs-btnOL-danger {
+    background: transparent;
+    border: 1px solid #d45e6a;
+    border-radius: 4px;
+    color: #d45e6a;
+    &:hover {
+        background: #d45e6a;  
+        color: #DDDDDD;
+    }
+    &:focus {
+        outline: none !important;
+        background: #c55b66;  
+        color: #DDDDDD;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #af4953;
+        border-radius: 4px;
+        color: #af4953;
+    }
+}
+.cs-btnOL-warning {
+    background: transparent;
+    border: 1px solid #ffce2c;
+    border-radius: 4px;
+    color: #ffce2c;
+    &:hover {
+        background: #ffce2c;  
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #eec12e;  
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #c99c0b;
+        border-radius: 4px;
+        color: #c99c0b;
+    }
+}
+.cs-btnOL-info {
+    background: transparent;
+    border: 1px solid #61b5d6;
+    border-radius: 4px;
+    color: #61b5d6;
+    &:hover {
+        background: #61b5d6;
+        color: #0B0C22;
+    }
+    &:focus {
+        outline: none !important;
+        background: #5da9c7;
+        color: #0B0C22;
+    }
+    &:disabled {
+        background: transparent;
+        border: 1px solid #4897b6;
+        border-radius: 4px;
+        color: #4897b6;
+    }
+}
+// End Button Bordered

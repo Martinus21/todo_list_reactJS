@@ -1,0 +1,82 @@
+/* INPUT BACKGROUND */
+.cs-inputDefault-bg {
+    &-appendL {
+        display: flex;
+        position: absolute;
+        background: transparent;
+        z-index: 99;
+        height: 100%;
+        width: 40px;
+        &-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+    &-appendR {
+        display: flex;
+        position: absolute;
+        background: transparent;
+        z-index: 99;
+        height: 100%;
+        width: 40px;
+        right: 0;
+        &-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+    &-input {
+        border: none;
+        background-color: #aeb4ce50;
+        border-radius: 4px !important;
+        color: white !important;
+        padding-left: 40px;
+        // &:-webkit-autofill,
+        // &:-webkit-autofill:hover,
+        // &:-webkit-autofill:focus {
+        //     -webkit-text-fill-color: white;
+        //     -webkit-box-shadow: 0 0 0px 1000px #151933 inset;
+        //     transition: background-color 5000s ease-in-out 0s;
+        // }
+        &:focus {
+            outline: none;
+            animation: inputfocus 0s infinite forwards;
+            background: #aeb4ce50;
+        }
+        &:disabled {
+            width: 100%;
+            color: grey;
+            background-color: #6a739750;
+            border: 0;
+            font-weight: 200;
+            font-size: 16px;
+            padding: 7px 12px;
+            border-radius: 5px;
+            &::placeholder {
+                color: silver;
+            }
+        }
+        @keyframes inputfocus {
+            from {
+            }
+            to {
+                -webkit-box-shadow: inset 0px 0px 5px 0px rgba(249, 186, 66, 1);
+                -moz-box-shadow: inset 0px 0px 5px 0px rgba(249, 186, 66, 1);
+                box-shadow: inset 0px 0px 5px 0px rgba(249, 186, 66, 1);
+            }
+        }
+        &[type="number"]::-webkit-inner-spin-button,
+        &[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+    .cs-pd {
+        padding-left: 12px;
+    }
+}
+/* END INPUT BACKGROUND */
